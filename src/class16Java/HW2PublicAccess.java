@@ -9,7 +9,7 @@ public class HW2PublicAccess {
         StringBuilder sb=new StringBuilder(given);
         sb.reverse();
         String afterRev=sb.toString();
-        return afterRev;
+        return afterRev;//return new Stringbuilder(str).reverse().toString();--> chaining method
     }
 
     public static void main(String[] args) {

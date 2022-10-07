@@ -7,6 +7,7 @@ public class HW3PrivateAccess {
      */
 
     private static String choose(String given){
+        //String newStr=str.replaceAll("[^aeiouAEIOU]", ""); return newStr -->other solution
         String res="";
         for(int i=0;i<given.length();i++){
             if(given.charAt(i)=='a'||given.charAt(i)=='e'||given.charAt(i)=='i'||given.charAt(i)=='o'||
@@ -14,7 +15,7 @@ public class HW3PrivateAccess {
                 res=res+given.charAt(i);
             }
         }
-        return res;
+        return res; //return str.replaceAll("[^aeiouAEIOU]", ""); -->one more solution
     }
 
     public static void main(String[] args) {
