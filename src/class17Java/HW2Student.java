@@ -16,11 +16,12 @@ public class HW2Student {
     void printAverage(){
         int avrg=0;
         avrg=(mathGrade+historyGrade+programmingGrade)/3;
-        System.out.println(avrg);
+        System.out.println(name+" "+avrg);
     }
     public static void main(String[] args) {
         HW2Student student1=new HW2Student("Todd", 70, 90, 90 );
         student1.printAverage();
+        //new Student("Todd",70,90,90).printAverage(); --> other option BUT it is possible only for one method
 
         HW2Student student2=new HW2Student("Kamilla", 90, 70, 80 );
         student2.printAverage();

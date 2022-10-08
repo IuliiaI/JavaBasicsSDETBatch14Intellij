@@ -10,6 +10,7 @@ public class HW1FootballPlayer {
     private int number;
     private String coachSurname;
     private int numOfGoals;
+
     private double salary;
     public HW1FootballPlayer() {
     }

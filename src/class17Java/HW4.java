@@ -10,7 +10,7 @@ public class HW4 {
     static String weddingHall="Central";
 
 
-    static HW4(String nameOfBrideC, String nameOfGroomC, String weddingHall) {
+    HW4(String nameOfBrideC, String nameOfGroomC, String weddingHall) {
         nameOfBride = nameOfBrideC;
         nameOfGroom = nameOfGroomC;
     }
