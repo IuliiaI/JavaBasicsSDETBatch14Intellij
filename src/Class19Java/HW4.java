@@ -13,12 +13,10 @@ class UserClass{
     }
 }
 class UserInfo extends UserClass{
-    UserInfo(String name,String mobileNumber){
-        super(name,mobileNumber);
-    }
+
     String address;
     UserInfo(String address, String name,String mobileNumber){
-        this(name,mobileNumber);
+        super(name,mobileNumber);
         this.address=address;
     }
     void userDetails(){

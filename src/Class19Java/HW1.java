@@ -21,7 +21,8 @@ class C extends B{
         System.out.println("Among these "+teaSetContent+" items are "+cupChangable+ " cups could be changed during guarantee term");
     }
 }
-class ABCTest{
+class
+ABCTest{
     public static void main(String[] args) {
         A dishes=new A();
         dishes.brandOfDishes="VANDAN MART";
