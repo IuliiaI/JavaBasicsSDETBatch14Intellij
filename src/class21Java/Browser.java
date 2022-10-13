@@ -1,0 +1,27 @@
+package class21Java;
+public class Browser {
+    void openBrowser(){
+        System.out.println("Opening a Browser");
+    }
+    void navigate(){
+        System.out.println("opening the url");
+    }
+    void test(){
+        System.out.println("Testing the webpage");
+    }
+    void closeBrowser(){
+        System.out.println("closing the browser");
+    }
+}
+class Chrome extends Browser{
+
+    @Override
+    void openBrowser(){
+        System.out.println("Opening the Browser in less than 1 sec");
+    }
+}
+class FireFox extends Browser{
+    void openBrowser(){
+        System.out.println("Opening the Browser in less than 2 sec");
+    }
+}

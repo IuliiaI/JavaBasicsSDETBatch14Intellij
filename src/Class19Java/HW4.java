@@ -5,6 +5,7 @@ public class HW4 {
     Print users name, mobile number and address in userDetails method. Test your code.*/
 }
 class UserClass{
+
     String name;
     String mobileNumber;
     UserClass(String name,String mobileNumber){

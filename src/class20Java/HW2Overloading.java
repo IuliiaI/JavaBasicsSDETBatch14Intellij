@@ -6,19 +6,15 @@ public class HW2Overloading {
     Example, if we pass "Java", then "I love Java" should be printed.     */
 }
 class Programming{
-    void printInfo(){
+    Programming(){
         System.out.println("I love programming languages");
     }
-    void printInfo(String language){
+    Programming(String language){
         System.out.println("I love "+language);
     }
-
-
-}
-class TesterProgramming{
     public static void main(String[] args) {
-     Programming obj=new Programming();
-     obj.printInfo();
-     obj.printInfo("Java");
+        Programming obj=new Programming();
+        Programming obj1=new Programming("Java");
     }
+
 }
