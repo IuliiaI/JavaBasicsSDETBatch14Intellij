@@ -1,4 +1,4 @@
-package reviewJavaClass06;
+package reviewJavaClass07;
 
 public class Teacher {
     String name, lastName;
