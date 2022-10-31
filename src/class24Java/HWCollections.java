@@ -7,7 +7,9 @@ public class HWCollections {
      Check whether the specific name is present in an ArrayList or not?
      Find the size of your arrayList and print all values from that        */
     public static void main(String[] args) {
-        ArrayList<String> names=new ArrayList<>();
+        ArrayList<String> names=new ArrayList<>(5); //we can define size and it will be initial capacity
+        //even in this case we can add more elements BUT in this case we will not waste space because Java creates
+        // 10 spaces by default
         names.add("Pall");
         names.add("Sara");
         names.add("Mickle");
@@ -25,6 +27,8 @@ public class HWCollections {
         /*  for(String name:names){
             System.out.println(name);
         }   */
+
+
 
     }
 }
