@@ -40,8 +40,9 @@ public class Apple extends Fruit{
         //app.color; private member of super class is not visible
         System.out.println(app.name);
         System.out.println(app.shape);
-        System.out.println(Fruit.fresh);
-        System.out.println(Apple.fresh);
+
+        System.out.println(Fruit.FRESH);
+        System.out.println(Apple.FRESH);
 
         app.grow();//fruit class
         app.haveBenefits();
