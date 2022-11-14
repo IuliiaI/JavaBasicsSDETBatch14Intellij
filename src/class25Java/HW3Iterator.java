@@ -9,12 +9,17 @@ public class HW3Iterator {
     */
     public static void main(String[] args) {
         ArrayList<Integer> numbers=new ArrayList<>();
-        for(int i=0;i<500;i++){
+        for(int i=2;i<=500;i=+2){
             int num=i+1;
             if(num%2==0){
                 numbers.add(num);
             }
         }
+        /*
+        for(int i=2;i<=500;i=i+2){
+        numbers.add(i);
+        }
+         */
         System.out.println(numbers);
 
         Iterator<Integer> iterator= numbers.iterator();
