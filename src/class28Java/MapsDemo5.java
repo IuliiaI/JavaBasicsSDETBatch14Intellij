@@ -13,6 +13,8 @@ public class MapsDemo5 {
         items.put("Keyboard",100.0);
         items.put("Flower",1.0);
 
+        items.isEmpty();
+
         //Set<Map.Entry<String,Double>> entrySet =items.entrySet();
         var entrySet=items.entrySet();
      /*   var dog=new Dog();

@@ -14,7 +14,7 @@ public class MapDemo3 {
         System.out.println(fruit);
         System.out.println(fruit.get("Banana"));
 
-        Collection<String> keySet=fruit.keySet(); //returns all the keys in the form of Set
+        Collection<String> keySet=fruit.keySet(); //returns all the keys in the form of Set(Collection is the parent of Set)
         System.out.println(keySet);
         Collection<Double> values=fruit.values(); // returns all the values in the form of a collection
         System.out.println(values);

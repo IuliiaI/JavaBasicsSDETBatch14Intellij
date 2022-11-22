@@ -18,6 +18,9 @@ public class entrySet {
             hashMap1.put(4,"Element4");
             hashMap1.put(5,"Element5");
 
+            String value=hashMap1.get(5);
+            System.out.println(value);
+
             //get the entrySet of hashMap1
             Set<Map.Entry<Integer,String>> set1 = hashMap1.entrySet();
 
@@ -28,6 +31,8 @@ public class entrySet {
                 System.out.print(me.getKey() + ": ");
                 System.out.println(me.getValue().toUpperCase());
             }
+
+
         }
     }
 
